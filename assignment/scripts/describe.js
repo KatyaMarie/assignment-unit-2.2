@@ -126,6 +126,8 @@ if (isStudent === true && zip > 80000 ) {
 */
 
 
+
+
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
 // Some of the code will NOT match the description.
@@ -229,7 +231,7 @@ if (temp > 39 || time >= 4) {
 
 
 
-🤭🌟
+//🤭🌟
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
