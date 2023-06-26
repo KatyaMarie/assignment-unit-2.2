@@ -5,8 +5,7 @@
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
 
-
-// 0. WRITE YOUR DESCRIPTION HERE
+//🫡 0. WRITE YOUR DESCRIPTION HERE
 // //EXAMPLE. We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
 // We check if number is greater than or equal to 2. 2 is equal to 2, so
@@ -21,34 +20,50 @@ number++;
 if (number >= 2) {
   console.log('yes');
 }
-
 */
 
 
+//🤭🌟
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We initialize a string variable called 'name' and give it the value 'Katya'
+// We establish a conditional statement: if name (variable) is === to the string 'Mary'
+// <In this If Statement, we are using a strict equality comparison, which will return true 
+// if only both type and value are the same, there is no type coersion.>
+// variable 'Katya' is tested in the IF statement below, Katya fails to meet the strict equality 
+//operator when compared to 'Mary'. Therefore the console.log in the else stament will only execute
+//console.log will return the message "How do you do?". 
+//<Katya will not receive a message intended for Mary, "Hi,Mary!" this console.log is not executed, no message returned or displayed>
 
+
+//👩🏽‍💻
 //CODE
 /*
-let name = 'Dane';
+let name = 'Katya';
 
 if (name === 'Mary') {
   console.log('Hi, Mary!');
 } else {
   console.log('How do you do?');
 }
-
-
 */
 
+
+
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// a variable called secret is declared (no value or type is given to secret quite yet)
+// a variable called code is declared and it is assigned an integer value of 123. 
+// < we can complete math functions with numbers / number types in JS >
+// we create a conditional statement to see if the variable for code is (====) 123.
+// <In this If Statement, we are using a strict equality comparison, which will return true 
+// if only both type and value are the same, there is no type coersion.>
+// 123 is the same type and value! the code inside the first If statement will execute / run
+// secret was declared above, outside of the If statement and inside the If statement is given a string type 
+//with the value 'super' . . code is also reassigned the value of code * 2, OR simply put here, 246 (123 * 2) 
+// we create another conditional If statement: If variable code is greater than 250, please run the code inside
+//the value of code is 246 after the first If loop, so the line of code in the next If statement does not run
+// console.log(secret);* (there is a syntax error for console.log to function properly) 
+//the value / message that the variable secret would display is 'super', assigned in the first If statement.
+
 
 //CODE
 /*
@@ -69,11 +84,29 @@ console.log(secret)
 
 */
 
+
+
+// paraphrazing for accessibility  
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// initializing variables: 
+//   > variable isStudent assigned boolean type, value true 
+//      > variable age is assigned number type, value 34 
+//             >variable zip is assigned the value of 
+
+// Else IF stament(s) are created, and used to specify a new condition if the first condtion is false 
+//we begin with a compound conditional if statement, 
+//the block of code inside will run if the boolean variable isStudent returns true  
+// AS WELL AS the number type for variable zip is greater than 800. BOTH conditions must be met
+// 55407 is not greater than 8,00, the first If statement will not run the block of code inside of it
+// since the first conditional statements is false, we create another conditional statment
+// next Else If statments returns false as well because boolean isStudents does not equal false 
+//nor is the age variable less than thirty. only one condition needs to be true with an OR statement (||)
+// However niether statments are true in the second conditional statement. no console.log messages displayed yet. . .
+// we create another conditional statement: Else If isStudent boolean type equal to true,
+// execute the block of code within the follor parameters
+// this condition is true! this Else If statement returns the console.log message "Welcome to Prime"
+// the last else code will not display a console.log message about the weather since a condition has already been met. 
+//it is missing ";" at the end
 
 //CODE
 /*
