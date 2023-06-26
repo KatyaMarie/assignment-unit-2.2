@@ -11,7 +11,7 @@
 // We check if number is greater than or equal to 2. 2 is equal to 2, so
 // we console.log 'yes'.
 
-//CODE
+// 👩🏽‍💻 CODE
 /*
 let number = 1;
 
@@ -23,7 +23,7 @@ if (number >= 2) {
 */
 
 
-//🤭🌟
+// 🤭🌟
 // 1. WRITE YOUR DESCRIPTION HERE
 // We initialize a string variable called 'name' and give it the value 'Katya'
 // We establish a conditional statement: if name (variable) is === to the string 'Mary'
@@ -35,8 +35,7 @@ if (number >= 2) {
 //<Katya will not receive a message intended for Mary, "Hi,Mary!" this console.log is not executed, no message returned or displayed>
 
 
-//👩🏽‍💻
-//CODE
+// 👩🏽‍💻 CODE
 /*
 let name = 'Katya';
 
@@ -48,7 +47,7 @@ if (name === 'Mary') {
 */
 
 
-
+// 🤭🌟
 // 2. WRITE YOUR DESCRIPTION HERE
 // a variable called secret is declared (no value or type is given to secret quite yet)
 // a variable called code is declared and it is assigned an integer value of 123. 
@@ -65,7 +64,7 @@ if (name === 'Mary') {
 //the value / message that the variable secret would display is 'super', assigned in the first If statement.
 
 
-//CODE
+// 👩🏽‍💻 CODE
 /*
 let secret;
 
@@ -86,7 +85,7 @@ console.log(secret)
 
 
 
-// paraphrazing for accessibility  
+// 🤭🌟 paraphrazing for accessibility  
 // 3. WRITE YOUR DESCRIPTION HERE
 // initializing variables: 
 //   > variable isStudent assigned boolean type, value true 
@@ -108,7 +107,7 @@ console.log(secret)
 // the last else code will not display a console.log message about the weather since a condition has already been met. 
 //it is missing ";" at the end
 
-//CODE
+// 👩🏽‍💻 CODE
 /*
 let isStudent = true;
 let age = 34;
@@ -127,22 +126,24 @@ if (isStudent === true && zip > 80000 ) {
 */
 
 
-
-
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
 // Some of the code will NOT match the description.
 // Comment above the problem code, and describe a potential solution.
 // Look closely -- things are logically incorrect or missing and wrong in the code!
 
-// EXAMPLE
+// The code given will have something logically incorrect, 
+// and your job is to find the issue and make a comment 
+// describing what is wrong and how to fix it.
+
+// 🫡 EXAMPLE
 // 0. (DESCRIPTION OF CORRECT BEHAVIOR)
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
 // We check if number is greater than or equal to 2. 
 // -- it is, so we console.log 'yes'
 
-//CODE
+// 👩🏽‍💻 CODE
 /*
 let number = 1;
 
@@ -157,38 +158,83 @@ if (number >= 2) {
 */
 
 
-
-//4. We start with three variables -- colorOne is set to 'blue' and 
+// 🤭🌟
+// 4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
+// I see an error regarding assignment values and variable name accuracy, 
+// but it does no reaaally effect the code. 
+// I would change the information above instead of changing the code in this instance. 
+// e.g. . it does not inherently matter which color is colorOne  or  colorTwo. . 
+// just so long what is said is the correct assignment of variable to value.
+
 /*
-let colorOne = 'red';
+let colorOne = 'red'; 
 let colorTwo = 'blue';
 let mix = true;
 
+// or if you want to leave the text as is. . . 
+// let colorOne = 'blue'; , let colorTwo = 'red'; 
+// to match as said as assigned above correctly. 
+
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple;
 }
 */
 
+//add colorTwo = 'purple';, as directed in instructions. 
+
+
+
+
+// 🤭🌟
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+
+//👩🏽‍💻
 /*
 let temp = 40;
 const time = 4;
 
+// change const time to: let time = 4; 
+// to my understanding, time is one of the conditions we're checking in the If statement
+// it would make sense to check a changing time/clock, as the clocks cycle 
+// rather than const. otherwise this individual, if relying on this program, 
+// would always be needing to throw their food away ( time(4) >= 4)
+// unless this is a duration of 'four hours left out' as an indicator of spoilage? 
+//we'd need more information and systems to run a program like that however ;3
+
+
+
+// 👩🏽‍💻
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
 
+// the language in the scenario reads to me, ambiguous. 
+// technically an OR || statement is checking if the temp is higher than 39 
+// AND if the time is greater than or equal to 4 
+// the OR || conditional statement only needs one to be true, true. . 
+// but it is absolutely running to check 'either / even both AND' in the statement. . . 
+//only one needs to be true for the line of code to run
+// wouldn't you say this is true? 
+// could change to an and statement, feels vague for me to know for certain what you desire to see here
+
+
+
+
+🤭🌟
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+//👩🏽‍💻
 /*
 let age = 21;
 const minAge = 21;
@@ -197,6 +243,22 @@ if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
+}
+*/
+
+
+// make your code, format, word choice, order make sense, readable
+// i would choose to write out as follows: 
+
+//👩🏽‍💻
+/* 
+let age = 21;
+const minAge = 21; sure it's fine. doesn't change often, assgn const
+
+if(age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
 
