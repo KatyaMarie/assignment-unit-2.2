@@ -90,14 +90,14 @@ console.log(secret)
 // initializing variables: 
 //   > variable isStudent assigned boolean type, value true 
 //      > variable age is assigned number type, value 34 
-//             >variable zip is assigned the value of 
+//             >variable zip is assigned a number type, value of 55407
 
-// Else IF stament(s) are created, and used to specify a new condition if the first condtion is false 
+// IF / If else stament(s) are created, and used to specify a new condition if the first condtion is false 
 //we begin with a compound conditional if statement, 
 //the block of code inside will run if the boolean variable isStudent returns true  
-// AS WELL AS the number type for variable zip is greater than 800. BOTH conditions must be met
-// 55407 is not greater than 8,00, the first If statement will not run the block of code inside of it
-// since the first conditional statements is false, we create another conditional statment
+// AS WELL AS the number type for variable zip is greater than 80000. BOTH conditions must be met
+// 55407 is not greater than 80000, the first If statement will not run the block of code inside of it
+// since the first if statement / conditional statements is false, we create another conditional statment
 // next Else If statments returns false as well because boolean isStudents does not equal false 
 //nor is the age variable less than thirty. only one condition needs to be true with an OR statement (||)
 // However niether statments are true in the second conditional statement. no console.log messages displayed yet. . .
@@ -105,7 +105,7 @@ console.log(secret)
 // execute the block of code within the follor parameters
 // this condition is true! this Else If statement returns the console.log message "Welcome to Prime"
 // the last else code will not display a console.log message about the weather since a condition has already been met. 
-//it is missing ";" at the end
+//missing ";" at the end
 
 // 👩🏽‍💻 CODE
 /*
@@ -170,7 +170,7 @@ if (number >= 2) {
 // but it does no reaaally effect the code. 
 // I would change the information above instead of changing the code in this instance. 
 // e.g. . it does not inherently matter which color is colorOne  or  colorTwo. . 
-// just so long what is said is the correct assignment of variable to value.
+// just so long what is said is the correct assignment of variable to value, in order.
 
 /*
 let colorOne = 'red'; 
@@ -227,7 +227,8 @@ if (temp > 39 || time >= 4) {
 //only one needs to be true for the line of code to run
 // wouldn't you say this is true? 
 // could change to an and statement, feels vague for me to know for certain what you desire to see here
-
+//anytime we see words like 'and' in a sentence, 
+//that usually indicates that we are expecting && to be somewhere in our condition,
 
 
 
@@ -264,3 +265,4 @@ if(age >= minAge) {
 }
 */
 
+// essentially all you would need to do is swap the console.log()s between the two blocks.
